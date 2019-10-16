@@ -1,0 +1,30 @@
+body{
+	background-color:rgb(255,218,185);
+	height:100%;
+}
+#heading{
+	color:gray;
+	width:280px;
+	border-bottom:4px solid gray;
+	text-align:center;
+}
+.change-color{
+	color:crimson;
+	margin-left: 220px;
+}
+#block{
+	float:left;
+	margin-left:100px;
+	font-size: 15px;
+}
+#inline{
+	float:right;
+	margin-right: 350px;
+	font-size: 15px;
+	border-left:5px dotted black;
+	padding-left:170px;
+}
+hr{
+	background-color:black;
+	height:5px;
+}
