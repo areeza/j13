@@ -1,0 +1,35 @@
+table{
+	
+	width:60%;
+	margin:0 auto;
+}
+tr:nth-child(1){
+	background-color:rgba(0,0,0,0.7);
+	color:white;
+}
+table,tr{
+	border:1px solid black;
+	border-collapse: collapse;
+}
+p{
+	font-size: 22px;
+}
+li{
+	font-size: 22px;
+}
+th{
+	text-align: left;
+}
+h1{
+	border-bottom:2px solid white;
+	width:150px;
+	margin-left:30px;
+}
+img{
+	float:right;
+	border:2px solid black;
+}
+th{
+	background-color:grey;
+}
+
