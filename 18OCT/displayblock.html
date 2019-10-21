@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>display blocks</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<style>
+	body{
+		background-color:#659EBC;
+	}
+	h1{
+		width:520px;
+		border-bottom: 3px solid #FBEEC1;
+		color:#FBEEC1;
+	}
+	div{
+		width:40%;
+		height:300px;
+		margin: 0px auto;
+		border:3px solid #BD986B;
+		overflow: hidden;
+	}
+	a{
+	  color:#FBEEC1;
+	  text-decoration: none;
+	  background-color:#A08062;
+	  font-size: 20px;
+	  padding:15px 30px;
+	  display:block;
+	  text-align: center;
+
+	}
+	p{
+		display:none;
+		font-size:19px;
+		color:#FBEEC1;
+	}
+	a:hover{
+		color:#A08062;
+		background-color:white;
+	}
+	.hov:hover~.blocks{
+		background-color:#FBEEC1; 
+	}
+	.hov:hover~p{
+		display:block;
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Hover on the button to see the block</h1>
+	<div class="main">
+			<a href="#" class="hov">hover me to see</a>
+			<p class="para-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor error quibusdam officia amet dolores repellendus rem dolorum saepe, eligendi aperiam vero voluptates quisquam, doloremque id. Sapiente recusandae corporis beatae nemo! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati eaque voluptates, minima pariatur reprehenderit eligendi laborum incidunt doloribus facilis atque? Quasi porro minus maxime laboriosam soluta nulla. Totam optio natus quos, dolores molestiae fugiat voluptatem distinctio aperiam aspernatur culpa obcaecati vel enim incidunt odit accusantium! Beatae minima fuga, iure eveniet.</p>
+		
+    </div>
+
+
+    <!-- using js -->
+        <div class="di2">
+
+    <a class="jhov">toggle using jquery</a>
+    	<p class="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est quos minima sed magni doloribus, libero ratione esse placeat tenetur! Atque porro impedit omnis eveniet iure error, maxime doloribus eligendi quam aut repellat tempore incidunt! Non ut, temporibus vero perspiciatis quisquam tempore asperiores saepe voluptas at aut quos autem, mollitia, tenetur sunt tempora deserunt minus illum iste magni, amet perferendis dolorum cum praesentium vitae repellat? Excepturi dolore iure optio reprehenderit tenetur, illo necessitatibus doloribus fugiat, tempore accusamus, libero vitae repudiandae. Aliquam accusantium molestias voluptatem assumenda vero laborum saepe vitae recusandae, fugiat dolor cupiditate nesciunt nihil alias dolore explicabo qui, atque necessitatibus!</p>
+    </div>
+
+   <script>
+   	$(document).ready(function(){
+   		$('.jhov').hover(function(){
+              $('.para-2').toggle()
+   		})
+   	})
+   </script>
+</body>
+</html>

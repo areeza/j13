@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #cop{
+            display:none;
+            width:300px;
+            height:150px;
+            box-shadow: 5px 5px 5px blue;
+            text-align: center;
+            position:relative;
+            }
+        button{
+            padding:20px;
+            color:white;
+            background-color:blue;
+            font-size: 18px;
+        }
+        p{
+            margin:auto 0px;
+            position:absolute;
+            top: 50%;
+            height:100px;
+            margin-top: -50px;
+            
+        }
+    </style>
+</head>
+<body>
+     <h1>Toggle using javascript:</h1>
+    <button onclick="showw()">Click me to toggle</button>
+    <div id="cop">
+    <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae earum, ab soluta iusto impedit possimus unde nemo, doloribus saepe magni! Vel laboriosam temporibus minima repudiandae natus ducimus ad hic consectetur.</p>
+</div>
+    <script type="text/javascript">
+        function showw(){
+            var x=document.getElementById("cop");
+            if(x.style.display==="none"){
+                x.style.display="block";
+            }else{
+                x.style.display="none";
+            }
+        }
+    </script>
+    
+</body>
+</html>
