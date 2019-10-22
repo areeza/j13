@@ -1,0 +1,40 @@
+#image{	
+	margin:0 auto;
+	width:70%;
+	position:relative;
+	color:white;
+	font-size: 30px;
+	}
+img{
+	width:100%;
+	border:5px solid black;
+}
+#one{
+    position: absolute;
+    top:0;
+    left:0;
+}
+#two{
+	position: absolute;
+	top:0;
+	right:0;
+}
+#three{
+	height:30px;
+	width:100px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -15px;
+	margin-left:-50px;
+}
+#four{
+	position: absolute;
+	bottom:5px;
+	left:5px;
+}
+#five{
+	position: absolute;
+	bottom:5px;
+	right:5px;
+}
