@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dropdown</title>
+	<style>
+		.drop{
+			position: relative;
+		}
+		.drop button{
+			padding:16px 20px;
+			background-color: green;
+			color:white;
+			font-size: 16px;
+			cursor:pointer;
+		}
+
+		.block{
+			display:none;
+			position:absolute;
+		}
+		.block a{
+			display: block;
+			padding:8px;
+			min-width: 150px;
+			background-color: white;
+			border:none;
+			text-decoration: none;
+			color:black;
+			font-size: 20px;
+			box-shadow:0px 10px 10px 0px rgba(0,0,0,0.2);
+		}
+		.drop:hover .block{
+			display: block;
+		}
+		.block a:hover{
+			background-color:rgba(245,245,245,0.3); 
+		}
+	</style>
+</head>
+<body>
+	<h1>DROPDOWN</h1>
+	<p>here is a dropdowm</p>
+	<div class="drop">
+		<button>Dropdown</button>
+		<div class="block">
+			<a href="#">Link1</a>
+			<a href="#">Link2</a>
+			<a href="#">Link3</a>
+			<a href="#">Link4</a>
+			<a href="#">Link5</a>
+		</div>
+	</div>
+</body>
+</html>
