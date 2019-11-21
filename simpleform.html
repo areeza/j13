@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>simple form</title>
+	<style>
+	h1{
+		text-align: center;
+	}
+   .form{
+		width:50%;
+		height:auto;
+		margin:0 auto;
+		border:3px solid black;
+		padding:50px;
+	}
+	label{
+		font-size:18px;
+	}
+		input{
+			width:100%;
+			padding:12px 0px;
+			display:block;
+			margin: 12px 0px;
+            font-size: 18px;
+            border:1px solid black;
+            background-color:rgba(245,245,245,0.9);
+		}
+		select{
+			width:100%;
+            height:60px;
+            font-size: 18px;
+            display: block;
+            margin:12px 0px;
+            border:1px solid black;
+            background-color:rgba(245,245,245,0.9); 
+           }
+           button{
+           	width:100%;
+           	height: 60px;
+           	background-color: grey;
+           	font-size: 18px;
+           }
+	</style>
+</head>
+<body>
+	<div class="form">
+		<h1>FORM</h1>
+		<form>
+			<label for="fname">First Name:</label>
+			<input type="text" id="fname" name="firstname" placeholder="FIRST NAME"> 
+			<label for="lname">Last Name:</label>
+			<input type="text" id="lname"  name="lastname" placeholder="LAST NAME">
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" placeholder="E-MAIL">
+			<label for="country">Select Country:</label>
+			<select name="country" id="country">
+				            <option value="Select Country">Select Country</option>
+							<option value="pak">Pakistan</option>
+							<option value="chi">China</option>
+							<option value="ind">India</option>
+							<option value="usa">USA</option>
+			</select>
+			<label for="course">Select Course:</label>	
+			<select name="course" id="course">
+				        <option value="Select Course">Select Course</option>
+						<option value="Web designing">Web designing</option>
+						<option value="Graphic Designing">Graphic Designing</option>
+						<option value="Networking">Networking</option>
+						<option value="Android Application">Android Application</option>
+						<option value="CISCO">CISCO</option>
+			</select>
+			<button type="submit">Submit</button>		
+		</form>
+	</div>
+</body>
+</html>
