@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>for loop</title>
+</head>
+<body>
+	<h1>Forward Counting</h1>
+	<p id="demo"></p>
+	<h1>Backward Counting</h1>
+	<p id="demo1"></p>
+	<script>
+		var count,backCount,dishes;
+		//counting 1 to 10
+		var text="";
+		for(count=0;count<=10;count++){
+			text += "current count = " + count + "<br/>";
+		}
+		document.getElementById('demo').innerHTML=text;
+
+		//back countind 10-0
+		var text1="";
+		for(count=10;count>=0;count--){
+			text1 +="current count = " + count + "<br/>";
+		}
+		document.getElementById("demo1").innerHTML=text1;
+
+		//array data fetching
+		var dishes=["pizza","fries","pasta","spaghetti","bariyani","macroni","lazania","chineseRice"];
+		 for(i=0;i<=dishes.length-1;i++){
+		 	document.write(dishes[i] + "<br>");
+		 }
+
+	</script>
+</body>
+</html>

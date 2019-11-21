@@ -1,0 +1,163 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color: #9A1750;
+}
+.container-fluid{
+	width:100%;
+}
+.container{
+	width:100%;
+	height:auto;
+	}
+.row{
+    width:90%;
+    margin:0px 5%;
+    padding:0px;
+    }
+.col-md-2{
+	width:25%;
+	margin:0px;
+	padding:0px;
+}
+.col-md-6{
+	width:50%;
+	margin:0px;
+}
+.col-md-3{
+	width:30%;
+	margin:0px;
+
+}
+.col-md-4{
+	width:40%;
+	margin:0px;
+}
+.col-md-7{
+	width:70%;
+	margin:0px;
+}
+/*header starts*/
+#header{
+	background-color: #9A1750;
+}
+#header h1{
+	text-align: center;
+	padding:20px;
+	margin:auto 0;
+	color:#5D001E;
+	font-size: 2.5em;
+}
+/*header ends*/
+
+
+/*nav starts*/
+#nav{
+	height:100px;
+	background-color: #E3AFBC;
+}
+#logo{
+	float:left;
+	height:100px;
+	color:#9A1750;
+	font-size:1.5em;
+	position: relative;
+	top:50%;
+	transform: translateY(-10%);
+}
+#links{
+	float:right;
+	height:100px;
+}
+#links ul{
+	list-style-type: none;
+	float:right;
+	display:block;
+}
+#links li{
+	float:left;
+}
+#links li a{
+	text-decoration:none;
+	display:block;
+	color:white;
+	padding:14px;
+	margin-left:4em;
+	font-size:20px;
+	font-weight: bolder;
+}
+#nav-btn{
+	display:none;
+	background-color: black;
+	color:white;
+	width:100px;
+	height:100px;
+	padding:20px;
+	border:none;
+	float:right;
+}
+/*nav ends*/
+@media (max-width:1500px ) {
+	/*nav res*/
+	#links ul{
+		display:none;
+	}
+	#nav-btn{
+        display:block;
+        position:relative;
+        background-color: #5D001E;
+	}
+	#nav-btn:hover+ul{
+		display:block;
+		position:absolute;
+		background-color: #fff;
+		color:#5D001E;
+		z-index: 1;
+		top:0;
+	}
+	#nav-btn:hover+ul li{
+		float:none;
+	}
+	#nav-btn:hover+ul li a{
+		margin:0 auto;
+		color:#5D001E;
+	}
+	/*nav res ends*/
+}
+/*section1 starts*/
+.sec1col{
+    box-sizing:border-box;
+    float:left;
+    color:white;
+    padding:15px;
+    font-size:17px;
+}
+.col-md-6 img{
+	width:100%;
+}
+@media (max-width:1300px){
+	.sec1col{
+		width:100%;
+		float:none;
+		}
+
+	.sec1col p{
+		padding-bottom: -50px;
+	}
+
+}
+
+/*section 1 ends*/
+/*sec 2 starts*/
+footer{
+	height:80px;
+	padding:0px;
+	background-color:#5D001E;
+	color:white;
+	
+	}
+footer p{
+     padding:20px;
+     text-align: center;
+	}
+/*sec2 ends*/
