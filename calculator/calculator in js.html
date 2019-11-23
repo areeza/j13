@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator in JS.</title>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+<body>
+	<h1>Calculator in JS</h1>
+	<div class="main"> 
+	<div class="formdiv">
+		<form name="forms">
+			<input type="text" name="answer" id="enter" onenter="limit()" /><br>
+
+			<input type="button" value=" 1 " onclick="forms.answer.value += '1' "/>
+			<input type="button" value=" 2 " onclick="forms.answer.value += '2' "/>
+			<input type="button" value=" 3 " onclick="forms.answer.value += '3' "/>
+			<br>
+
+			<input type="button" value=" 4 " onclick="forms.answer.value += '4' "/>
+			<input type="button" value=" 5 " onclick="forms.answer.value += '5' "/>
+			<input type="button" value=" 6 " onclick="forms.answer.value += '6' "/>
+			<br>
+			
+			<input type="button" value=" 7 " onclick="forms.answer.value += '7' "/>
+			<input type="button" value=" 8 " onclick="forms.answer.value += '8' "/>
+			<input type="button" value=" 9 " onclick="forms.answer.value += '9' "/>
+			<br>
+
+			<input type="button" value=" + " onclick="forms.answer.value += '+' "/>
+			<input type="button" value=" -  " onclick="forms.answer.value += '-' "/>
+			<input type="button" value=" * " onclick="forms.answer.value += '*' "/>
+			<br>
+
+			<input type="button" value=" /  " onclick="forms.answer.value += '/' "/>
+			<input type="button" value=" 0 " onclick="forms.answer.value += '0' "/>
+			<input type="button" value=" = " onclick="forms.answer.value = eval(forms.answer.value) "/>
+			<br>
+
+			<input type="button" value="Clear" onclick="myyfunc()"/>
+			<input type="button" value="Delete" onclick="myfunc()"/>
+			</form>
+	</div>
+	</div>
+
+
+	<script>
+		function myfunc(){
+					var s=document.getElementById('enter');
+					var enter=s.value;
+					enter=enter.substr(0,enter.length-1);
+					s.value=enter;
+		}
+		function myyfunc(){
+			var c=document.getElementById('enter');
+			c.value="";
+		}
+
+		// function limit(){
+		// 	var s=document.getElementById('enter');
+		//     if (s.value.length>10){
+		//         s.value = s.value.slice(0,10); 
+		//     }
+		// }
+
+
+	</script>
+	
+</body>
+</html>
