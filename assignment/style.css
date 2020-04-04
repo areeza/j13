@@ -1,0 +1,152 @@
+body{
+	background-color: #5CDB95;
+	margin:0px;
+	padding: 0px;
+}
+
+#main{
+	width:100%;
+    font-family: 'Lato', sans-serif;
+}
+#nav-container{
+	width:100%;
+	background-color:white;
+	border:solid rgba(5,56,107);
+	border-width:6px 0px;
+	}
+#nav-container:hover{
+	background-color:rgba(5,56,107,0.5);
+	border:solid white;
+	border-width:6px 0px;
+
+}
+#nav{
+	width:90%;
+	height:80px;
+	margin:0% 5%;
+		}
+#logo{
+	width:29%;
+	height:79px;
+	float:left;
+    font-family: 'Zhi Mang Xing', cursive;
+    color:#05386B;
+    font-size: 26px;
+    font-weight:bolder;
+    }
+
+#nav-container #nav #logo a{
+    line-height:79px;
+    
+}
+#logo a:hover{
+	color:#8ee4af;
+}
+#lists{
+	width:69%;
+	height:79px;	
+	float:right;
+	font-size: 23px;
+	}
+#lists{
+  position: relative;
+}
+ ul{
+  position: absolute;
+  top: 50%;
+  height: 79px;
+  margin-top: -36px; /* account for padding and border if not using box-sizing: border-box; */
+}
+ul li{
+	list-style-type: none;
+	display:inline-block;
+	padding:20px 20px 5px 20px;
+	color:#05386B;
+	font-weight: bold;    
+	}
+#lists li:hover{
+	color:#8ee4af;
+	animation:bounce 1s 1;
+	border-bottom:3px solid #8ee4af;
+     }
+#nav ul li a{
+	text-decoration: none;
+    
+}
+
+#content{
+	width:90%;
+	height:550px;
+	margin:0px 5%;
+	margin-top: 60px;
+	}
+.row{
+	width:415px;
+	height:400px;
+	display:inline-block;
+	background-color:#5CDB95;
+	border:3px solid #05386B; 
+}
+.row:hover{
+	box-shadow:  10px 10px 5px rgba(5,56,107,0.5);
+	animation:bounce 1s 2;
+}
+.images{
+	width:415px;
+    height:250px;
+    display: block;
+
+}
+#icons{
+	color:white;
+    font-size: 30px;
+    margin-left:150px;
+    position: absolute;
+    top:210px;
+}
+#icons a{
+	text-decoration: none;
+	color:white;
+}
+#icons a i:hover{
+	animation: bounce 1s infinite;
+	color:#05386B;
+}
+@keyframes bounce {
+    0%,  
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.row h2{
+	color:#05386B;
+	font-size:30px;
+	text-align: center;
+}
+.row p{
+	font-size: 16px;
+	color:#05386B;
+	font-weight: 600;
+	text-align: center;
+}
+.dots{
+	text-align: center;
+	}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color:#05386B ;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dots:hover{
+	animation: bounce 1s infinite;
+}
+.dot:hover{
+	animation: bounce 1s 2;
+	background-color:white;
+	}
+

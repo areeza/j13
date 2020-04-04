@@ -1,0 +1,84 @@
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+.navbar{
+	font-family: 'Lexend Peta', sans-serif;
+
+}
+#head{
+	background: url('images/op4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	margin:0px 0px;
+	
+	padding:125px 0px;
+ box-sizing: border-box;
+  
+
+}
+#heading{
+	
+	font-size: 5.5em;
+
+	font-family: 'Abril Fatface', cursive;
+    font-weight:600;
+    word-spacing: 20px;
+
+}
+
+#heading2{
+
+	font-size: 3.5em;
+
+	font-family: 'Abril Fatface', cursive;
+    
+
+}
+#learn{
+	border-radius: 2em;
+	/*font-family: 'Lexend Peta', sans-serif;*/
+	font-size: 1.2em;
+}
+#row11{
+	padding-top:130px;
+}
+.row1head{
+	font-family: 'Righteous', cursive;
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+
+#img1{
+
+	
+	height:500px;
+	width:500px;
+	
+	
+}
+#row12{
+	padding-top:130px;
+}
+
+#img2{
+	height:500px;
+	width:500px;
+}
+#row13{
+	padding-top: 130px;
+}
+#img3{
+	height:500px;
+	width:500px;
+}
+footer{
+	background-color: black;
+	color:white;
+	font-family: 'Righteous', cursive;
+}
+

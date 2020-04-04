@@ -1,0 +1,90 @@
+header{
+	background: url('images/resimg1.jpg');
+	background-size: cover;
+	padding:120px 0px 0px 0px;
+	background-color: lightgrey;
+	background-blend-mode: overlay;
+}
+.navbar a{
+	
+	color:black;
+	margin-left:25px;
+	margin-right:25px;
+}
+#btnav{
+	background-color: magenta;
+	border-radius: 30px;
+	color:white;
+	font-weight:bold;
+	margin-left:15px;
+	margin-right:15px;
+}
+#btnhead{
+	background-color: magenta;
+	border-radius: 30px;
+	color:white;
+	margin-top: 20px;
+	font-size: 18px;
+}
+#sec1{
+	margin-top: 150px;
+}
+.ic{
+	font-size: 50px;
+}
+#sec2{
+	background-color: magenta;
+}
+#coll{
+	position: relative;
+	top:0px;
+	left: 0px;
+}
+#co{
+	position:absolute;
+	top:4em;
+	left:18em;
+}
+table{
+	border-collapse: collapse;
+	border:0px;
+}
+.card{
+	border:0px;
+}
+#sec4{
+	background-color:rgba(245,245,245);
+}
+#sec6{
+	background-color:rgba(245,245,245);
+}
+.put{
+	background-color:rgba(245,245,245);
+    border:0px;
+    border-bottom: 1px solid black;
+}
+
+.form-control::placeholder {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+.msgbtn{
+	border-radius:90px;
+}
+#sec7{
+	background:url('images/lastimg.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+	padding: 70px;
+	background-color:rgba(245,245,245,0.9);
+	background-blend-mode: overlay; 
+}
+.h22{
+	font-size: 45px;
+}
+footer{
+	background-color:rgb(245,245,245);
+	 
+}

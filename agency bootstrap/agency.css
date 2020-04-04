@@ -1,0 +1,161 @@
+.navbar{
+	font-family: 'Bree Serif', serif;
+	font-size: 1.3em;
+
+}
+/*#btncol{
+	background-color:rgba(0, 0, 0, 0.1);
+	background-blend-mode: overlay;
+	
+}*/
+
+.fa fa-navicon{
+	color:blue;
+	border-color: black;
+
+}
+.bg-transparent{
+	background-color: transparent;
+	transition: 0.5s ease;
+}
+
+.bg-transparent.scrolled{
+	background-color:black !important;
+	color:white !important;
+}
+.navbar a{
+	padding-left:3px;
+}
+.navbar a:hover{
+	border-bottom:2px solid grey;
+}
+#head{
+	background: url('agimages/agimg.jpg') no-repeat;
+
+	background-size:cover;
+	padding:130px 0px;
+	box-sizing: border-box;
+}
+#heading{
+	color:white;
+	font-size:5em;
+    font-family: 'Bree Serif', serif;
+}
+#headpara{
+	font-size:1.5em;
+	font-family: 'Bree Serif', serif;
+
+}
+#sec1head{
+	font-family:'Bree Serif', serif;
+	font-size: 3em;
+	font-weight: 600;
+	text-align: right !important;
+}
+#sec1para{
+	font-size: 1.3em;
+	font-family:'Bree Serif', serif;
+}
+.fc{
+	font-size:1.3em;
+	padding:1.8em 0px;
+	background-color:rgb(232,232,232);	
+	font-family: 'Bree Serif', serif;
+}
+#sec2{
+	background-color: 	rgb(240,240,240);
+}
+.cardh4{
+	font-size: 1.5em;
+    font-weight: 400;
+}
+.cardbtn{
+	border:2px black solid;
+	font-weight: 600;
+}
+.cardp{
+	font-family: 'Bree Serif', serif;
+	font-size: 1.2em;
+}
+#sec3{
+	background-color:rgb(248,248,248);
+}
+#sec3p1{
+	font-size: 1.5em;
+
+}
+.sec3cards{
+	border:none;
+	font-size: 1.2em;
+
+}
+#sec4p{
+	font-size: 1.5em;
+	font-weight:500;
+	color:rgb(120,120,120);
+}
+.sec4para{
+	font-size: 1.2em;
+}
+.sec4h4{
+	font-weight: 400;
+}
+#sec4 .card{
+	border:none;
+}
+#sec5{
+	background: url('agimages/agimg5.jpg') no-repeat;
+	background-size: cover;
+	padding:130px 0px;
+	background-color:lightgrey;
+	background-blend-mode: overlay;
+}
+#sec5 .btn{
+	border:2px solid black;
+}
+#sec5 .btn:hover{
+	background-color: black;
+	color:white;
+}
+
+#sec5 h2{
+	font-size:2.9em;
+}
+#sec6 h2{
+	font-size:3.1em;
+}
+#sec6 p{
+	font-size: 1.3em;
+}
+#sec6 .card{
+	border:none;
+}
+.card-footer{
+	background:none !important; 
+	border:none;
+}
+#sec7{
+	background: url('agimages/agimg8.jpg') no-repeat;
+	padding:100px 0px;
+	background-size: cover;
+	background-color:rgb(0,0,76,0.7);
+	background-blend-mode: overlay;
+
+
+}
+#sec7{
+	font-weight: 600;
+	font-size: 50px;
+}
+@media only screen and (max-width: 1230px) {
+	nav a{
+		font-size:12px;
+
+	}
+}
+/*@media (max-width: 990px) {
+	header .btn{
+		font-size: 12px;
+		padding:2px 0px;
+	}
+   }*/
